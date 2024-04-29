@@ -1,0 +1,179 @@
+Exercicios if else
+
+Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo
+
+numero = float (input(" Digite o valor de um número "))
+if numero > 0 :
+ print("O Número é positivo " )
+elif numero == 0 :
+ print("O número digitado é 0 ")
+else :
+ print(" O número digitado é negativo ")
+
+
+     
+Faça um programa que verifique (usando if e else) se uma letra digitada é “F” ou “M”. Conforme a letra escrever: F – Feminino, M- Masculino, Sexo inválido.
+
+
+sexo = input("Digite m para masculino e f para feminino " )
+if sexo == "m" or sexo == "M":
+ print(" Sexo Masculino " )
+elif Feminino == "F" or sexo == "f" :
+ print(" Sexo Feminino ")
+else :
+ print(" Sexo Inválido " )
+
+
+     
+Faça um programa que verifique (usando if e else) se uma letra digitada é vogal ou consoante
+
+
+Letra = input("Digite uma letra ")
+if Letra == "a" or Letra == "A" :
+ print(" É uma vogal" )
+elif Letra == "e" or Letra == "E" :
+ print(" É uma vogal" )
+elif Letra == "i" or Letra == "I" :
+ print( "É uma vogal" )
+elif Letra == "o" or Letra == "O" :
+ print(" É uma vogal " )
+elif Letra == "u" or Letra == "U" :
+ print(" É uma vogal " )
+else:
+ print( "Não é uma vogal "  )
+
+     
+Faça um programa para a leitura de duas notas parciais de um aluno. A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete; A mensagem “Aprovado com Distinção”, se a média for igual a dez; A mensagem “Reprovado” se a média for menor de do que sete;
+
+
+parcial1 = float (input(" Insira a nota da primeira parcial " ))
+parcial2 = float (input(" Insira a nota da segunda parcial " ))
+media = (parcial1 + parcial2) /2
+if media == 10:
+ print(" Aprovado com distinç1ão " )
+elif media >= 7 and media < 10:
+ print("Aprovado")
+else:
+ print ("Reprovado")
+
+
+     
+Faça um programa que leia três números, verifique (usando if e else), e mostre o maior deles
+
+
+a = float(input(" Insira o primeiro número " ) )
+b = float(input(" Insira o segundo número " ) )
+c = float(input(" Insira o terceiro número " ) )
+if a > b and a > c :
+ print("a", a)
+elif b> a and b > c :
+ print("b", b)
+else :
+ print("c", c)
+
+     
+Faça um programa que leia três números, verifique (usando if e else) e mostre o maior e o menor deles;
+
+
+a = float(input("Insira o primeiro número") )
+b = float(input("Insira o segundo número") )
+c = float(input("Insira o terceiro número") )
+maior = 8
+menor = 5
+if a > b and a > c :
+ print("a", a)
+elif b> a and b > c :
+ print("b", b )
+elif c > a and c > b :
+ print("c" , c)
+if a < b and a < c :
+ print("a", a)
+elif b < a and b < c :
+ print("b",b )
+else :
+ print("c", c)
+
+     
+Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato.
+
+
+a = float(input("Insira o valor do primeiro produto") )
+b = float(input("Insira o valor do segundo produto") )
+c = float(input("Insira o valor do terceiro produto") )
+menor = 5
+if a < b and a < c :
+ print("a", a)
+elif b < a and b < c :
+ print("b",b )
+else :
+ print("c", c)
+
+     
+Faça um programa que leia três números e mostre-os em ordem decrescente
+
+
+a = float(input("Insira o  primeiro número") )
+b = float(input("Insira o  segundo número") )
+c = float(input("Insira o terceiro número ") )
+
+if a > b and a > c and b > c :
+ print("a", a ,"b", b , "c" ,c)
+elif b > c and b > a and c > a :
+ print("b", b , "c", c, "a", a)
+elif c > b and c > a and a > b :
+ print("c", c , "a", a , "b", b)
+elif a > b and a > c and b < c :
+ print("a", a , "c", c , "b", b )
+elif b > c and b > a and a > c :
+ print("b", b , "a", a, "c", c )
+elif c > b and c > a and b > a :
+ print("c", c , "b", b , "a", a)
+
+
+     
+Faça um programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-vespertino ou N-noturno. Imprima a mensagem “Bom dia!” ou “Boa Noite” ou “Valor inválido”, conforme o caso.
+
+
+turno = input("Digite o turno que você estuda. M para matutino, V para vespertino ou N para noturno  " )
+if turno == "m" or turno == "M":
+ print(" Bom dia! " )
+elif turno == "v" or turno == "V" :
+ print(" Boa tarde! ")
+elif turno == "n" or turno == "N" :
+ print(" Boa noite! ")
+else :
+ print(" Valor inválido " )
+
+     
+Faça um programa que peça dois números ao usuário e mostre qual o maior e qual o menor
+
+
+num1 = float(input("Insira o primeiro número ") )
+num2 = float(input("Insira o segundo número ") )
+if num1 > num2 :
+ print("num1", num1 ,  "num2", num2 )
+else :
+ print("num2", num2 ,  "num1" , num1 )
+
+     
+Faça um Programa que leia um número e exiba o dia correspondente da semana. (1- Domingo , 2- Segunda, etc.) se digitar outro valor deve aparecer “valor inválido)
+
+
+diasemana = int(input(" Digite o número de acordo com o dia de semana "))
+if diasemana == 1 :
+ print(" Domingo ")
+elif diasemana == 2 :
+ print(" Segunda ")
+elif diasemana == 3 :
+ print(" Terça ")
+elif diasemana == 4 :
+ print(" Quarta ")
+elif diasemana == 5 :
+ print(" Quinta ")
+elif diasemana == 6 :
+ print(" Sexta ")
+elif diasemana == 7 :
+ print(" Sábado ")
+else :
+ print("Valor inválido")
+     
